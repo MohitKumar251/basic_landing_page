@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans" , sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #175d69 23%, #330c43 95%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: #fff;
+    background-color: rgba(255, 254, 254, 0.101); 
+    padding: 10px;
+}
+
+nav .logo{
+    font-size: 1.8rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: #47b2e4;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.signup,.signin{
+    padding: 10px 20px;
+    border: 2px solid #47b2e4;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.signup:hover,.signin:hover{
+    background: #47b2e4;
+}
+
+.hero-section{
+    width: 96%;
+    height: 85vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #fff;
+   
+}
+
+.hero{
+    width: 50%;
+}
+
+.hero h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    color: #c9c9c9;
+    margin-bottom: 20px;
+}
+.hero .buttons{
+    gap: 20px;
+}
+
+.hero .signin{
+    background: #47b2e4;
+}
+
+.hero img{
+    width: 50%;
+}
+
+.hero-img img{
+    width: 100%;
+}
